@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+
+header{
+    background-color: #222222;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: #D01418;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: Roboto;
+}
+
+h1 span{
+    color: white;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.menu ul li{
+    font-family: Roboto;
+    color: white;
+    margin: 0 7px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+/* main */
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2em 10%;
+}
+
+.item {
+    width: 25em;
+    height: 30em;
+    background-color: rgb(228, 228, 228);
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 116, 116);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    margin: 25px;
+    gap: 25px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item h2 {
+    font-size: 1em;
+    margin-bottom: .2em;
+    Text-align: justify;
+}
+
+.item p{
+    Text-align: justify;
+}
+
+.fecha{
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+i{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+/* footer */
+
+footer{
+    font-family: Roboto;
+    background-color: #222222;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+}
+
